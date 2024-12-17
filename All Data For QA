@@ -1,0 +1,15 @@
+1.Last I learn Application in find the problem and how to solve this. 
+
+2.API testing- 
+send group message- https://ikrishi.mp.gov.in/api/addGroupChat/${authInfo?.id}/${groupid}
+
+send message- https://ikrishi.mp.gov.in/api/chatAdd
+register api- https://ikrishi.mp.gov.in/api/Baseurl/register
+
+This Link Copy and Pest to the POSTMAN app ni and the send.
+404,405 this are error type.
+200 means API is Ok.
+
+
+
+
