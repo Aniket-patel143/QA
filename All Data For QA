@@ -1,4 +1,53 @@
+Manuallytesting:-
+
+*Unit Testing: In this testing level, individual sections or parts of software or product are tested. The idea of this is to confirm every part or unit of the product after the test.
+
+*Integration Testing: In this software testing level, individual parts need to combine and test as a single cluster. This testing level's main idea is for exposing the faults while interacting between integrated units of the project.
+
+*System Testing: In this software testing level, the whole, integrated software or project is tested. The principle for this testing is to assess the system's conformity with its intended requirements.
+*Acceptance Testing: At this software testing level, a system needs to be tested for adequacy. This test is purposefully done for evaluating the compliance of the system with business requirements.
+
+Alpha Testing and Beta Testing kya hai
+1. Alpha Testing
+Alpha Testing सॉफ़्टवेयर टेस्टिंग का पहला चरण है, जिसे डेवलपर्स और इन-हाउस टेस्टिंग टीम द्वारा किया जाता है।
+मुख्य विशेषताएँ:
+1.	स्थान:
+o	यह टेस्टिंग सॉफ़्टवेयर डेवलपर के वातावरण (development environment) में की जाती है।
+2.	परीक्षक (Testers):
+o	इसे डेवलपर या क्वालिटी एनालिस्ट टीम (QA Team) द्वारा किया जाता है।
+3.	उद्देश्य:
+o	सभी प्रमुख बग्स और समस्याओं को ढूंढना और उन्हें फिक्स करना।
+o	फंक्शनलिटी और कार्यप्रणाली का परीक्षण करना।
+4.	उपयोगकर्ता का इनपुट:
+o	आमतौर पर उपयोगकर्ता शामिल नहीं होते।
+5.	स्टेटस:
+o	सॉफ़्टवेयर अभी भी अपूर्ण हो सकता है।
+उदाहरण:
+एक मोबाइल ऐप डेवलपमेंट के दौरान, इन-हाउस टीम चेक करती है कि ऐप सही तरीके से सभी फंक्शन्स पर काम कर रहा है या नहीं।
+________________________________________
+2. Beta Testing
+Beta Testing सॉफ़्टवेयर टेस्टिंग का दूसरा चरण है, जो वास्तविक उपयोगकर्ताओं के लिए किया जाता है।
+मुख्य विशेषताएँ:
+1.	स्थान:
+o	यह टेस्टिंग उपयोगकर्ता के वातावरण (real-world environment) में की जाती है।
+2.	परीक्षक (Testers):
+o	इसे वास्तविक उपयोगकर्ताओं या चयनित टेस्टर्स द्वारा किया जाता है।
+3.	उद्देश्य:
+o	वास्तविक परिस्थितियों में सॉफ़्टवेयर का प्रदर्शन देखना।
+o	उपयोगकर्ता अनुभव (User Experience) और फीडबैक प्राप्त करना।
+4.	उपयोगकर्ता का इनपुट:
+o	उपयोगकर्ता अपनी राय और सुझाव देते हैं।
+5.	स्टेटस:
+o	सॉफ़्टवेयर अधिकतर तैयार होता है, लेकिन कभी-कभी छोटे बग्स हो सकते हैं।
+उदाहरण:
+एक कंपनी अपने नए गेम का बीटा वर्ज़न रिलीज़ करती है और चयनित उपयोगकर्ताओं को खेलने के लिए आमंत्रित करती है। उपयोगकर्ताओं से फीडबैक मिलने के बाद अंतिम सुधार किए जाते हैं।
+
+
 1.Last I learn Application in find the problem and how to solve this. 
+Write all bug in google sheet for example—
+
+Bug ID	Pages	Description	Screenshots	Priority	Reported Date	Resolved Date	QA Status	Dev Status	Fixed By	Comments
+
 
 2.API testing- 
 send group message- https://ikrishi.mp.gov.in/api/addGroupChat/${authInfo?.id}/${groupid}
@@ -9,6 +58,175 @@ register api- https://ikrishi.mp.gov.in/api/Baseurl/register
 This Link Copy and Pest to the POSTMAN app ni and the send.
 404,405 this are error type.
 200 means API is Ok.
+
+Shop in Start phone—Number add jena thi shop ma login hoy a number 
+OTP copy then pest in OTP verify and ID copy pest same place
+
+Automation Testing:-
+
+1.Write test Script first
+in this write code for testing  
+
+SDLC(software development life cycle)
+RequirementFeasibility study (je requirement aapda pase aave a bani sakse k nahi)  analysis  designcodingTestingdeploymentmaintenance
+
+STLC(software test life cycle)
+Requirement analysis QA janse k bani che sena mate app/web site a badhu janavu work-flow janavo
+test planits done by QA manager
+test case development(test cases/test sript) tast case/script write karse aama
+enviroment setup hardware/software kaya kaya jose a badhu aama aavse,
+Somke test- software test thai sakse k nai a jovu, phone ni display j tutli hoy to km test karvu, bike test karva ni hoy but bike chalu j na thai to km test karvi
+
+Test case Execution test karse ane kai fail aave ti report karse developer ne and pachi complet thai atle fari retest karse. And RTM document ma update aap devu pass/fail
+
+Product-based compny
+ऐसी कंपनियाँ अपना खुद का प्रोडक्ट (सॉफ़्टवेयर, हार्डवेयर, या फिजिकल प्रोडक्ट) बनाती हैं, बेचती हैं और उसका रखरखाव करती हैं।
+उदाहरण: Microsoft, Google, Apple, और Adobe।
+
+Service-based compny
+ऐसी कंपनियाँ ग्राहकों को उनकी जरूरत के अनुसार सेवाएँ प्रदान करती हैं, जैसे सॉफ़्टवेयर डेवलपमेंट, कंसल्टिंग, और मेंटेनेंस।
+उदाहरण: TCS, Infosys, Wipro, और Accenture।
+
+RTM(Requirement Traceability Matrix):
+Aama badha no samaves thai atle kai chute nai
+
+દરેક જરૂરીયાતને ઓછામાં ઓછા એક ટેસ્ટ કેસ સાથે જોડે છે.
+તે ખાતરી કરે છે કે કોઈ જરૂરીયાત છૂટી ગઈ નથી અથવા તે પરીક્ષણ કરવામાં રહી ગઈ નથી.
+
+
+
+Eclipse in First Test Selenium
+
+Eclipse right side top in click file new project maven projects
+
+Maven project create
+
+Pom.xml in pest code in <dependency> tage in —
+
+Type google inmvnrepository.com then search ‘Selenium’ first Selenium java and ama last ma code hase just a copy karvano. And pom.xml ma pest
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.27.0</version>
+</dependency>
+
+Then Testin this right click new class give class name “cromefascebook”
+
+package com.fb;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class CromeFacebook {
+	public static void main(String[] args) {
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://www.instagram.com");
+		//driver.close();
+}}
+
+2. This in test cross browser test (means alag alag browse thi pan test thai sake am)
+
+package com.fb;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class Firefox {
+public static void main(String[] args) {
+WebDriver firefox=new FirefoxDriver();
+firefox.get("https://www.facebook.com");
+}
+}
+
+*Automatically fild in enter values.
+package com.fb;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class CromeFacebook {
+	public static void main(String[] args) {
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://www.facebook.com");
+		driver.findElement(By.id("email")).sendKeys("65556");
+		driver.findElement(By.id("email")).clear();
+		driver.findElement(By.id("email")).sendKeys("5655651");
+		driver.findElement(By.name("pass")).sendKeys("aniket@123");
+		driver.findElement(By.name("pass")).clear();
+		driver.findElement(By.name("login")).click();
+		//driver.close();}}
+*User pase thi data lai ne password username enter karva mate:
+
+package com.fb;
+import java.util.Scanner;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class CromeFacebook {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("please enter username/Phone Number");
+		String un=sc.next();
+		System.out.println("please enter Password");
+		String pw=sc.next();
+		
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://www.facebook.com");
+		driver.findElement(By.id("email")).sendKeys(un);
+		driver.findElement(By.name("pass")).sendKeys(pw);
+		driver.findElement(By.name("login")).click();
+		//driver.close();
+}}
+
+
+ID and Class this be add thai-
+
+driver.findElement(By. cssSelector ("input#username")).sendKeys(“aniket”);   // id ma #
+driver.findElement(By.cssSelector("input.password")).sendKeys(“0123”);  // class ma . use thase
+driver.findElement(By.cssSelector("input [name=’login’]")).click();   // input ama id k name hoy ane use kari ne aa rite ccSelector use thai sake
+
+Xpath—
+
+//tagename[@artibute=’values’]
+
+WebDriver driver=new ChromeDriver();
+driver.get("https://login.salesforce.com");
+driver.findElement(By.xpath("//input[@id='username']")).sendKeys("121");
+driver.findElement(By.xpath("//input[@name='pw']")).sendKeys("0125");
+
+Cansole in check path valid che k nahi
+
+$x('//input[@name="pw"]')    // single cout ni andar songal cot allow nathi aama
+$(‘input#username/id/ etc’) .
+
+
+Without use incpect page ma je dekhai 6 a name use kari ne data add karava for test  mate
+
+ChromeDriver driver=new ChromeDriver();
+driver.get("https://www.facebook.com");
+driver.findElement(By.cssSelector("input[placeholder='Email address or phone number']")).sendKeys("aniket@1123");
+driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("@1123");
+driver.findElement(By.xpath("//button[text()='Log in']")).click();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
